@@ -1,0 +1,7 @@
+version: "3"
+services:
+  libreoffice:
+    image: progfarkas/libreoffice-service:4.3.3-2-1
+    ports:
+      - "8100:8100"
+
